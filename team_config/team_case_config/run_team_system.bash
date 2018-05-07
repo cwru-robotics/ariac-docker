@@ -5,4 +5,4 @@ source /home/ariac-user/cwru_ws/devel/setup.bash
 
 roscd cwru_ariac_launch
 
-roslaunch cwru_ariac_launch cwru_ariac.launch & rosrun conveyor_as conveyor_as
+roslaunch cwru_ariac_launch cwru_ariac.launch
