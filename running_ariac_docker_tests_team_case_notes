@@ -1,0 +1,48 @@
+osrf/ariac-docker base: master
+
+our edits to ariac-docker:
+
+*in /team_config, create a folder: team_case
+ our changes will only be in this folder
+
+  in team_case, we edit build_team_system.bash, run_team_system.bash team_config.yaml
+
+  run_team_system should include:
+      roslaunch cwru_launch cwru_ariac.launch  (create this!!)
+
+  build_team_system.bash:
+    
+
+
+
+
+
+*in trial_config, put examples to be tested,
+  e.g. sample.yaml, ... (we should put all examples here)
+
+then can: ./run_trial.bash team_case sample
+  (e.g. to run sample.yaml)
+
+
+from: 
+~/ariac_ws/ariac-docker
+
+do:
+run_trial.bash
+
+here is my github code:
+
+b7f24337179a24b4f3cfb537833eccbdf5bec9a7
+
+goes in build_team_system.bash:  https://github.com/cwru-robotics/cwru_ariac_2019.git
+
+
+git clone https://b7f24337179a24b4f3cfb537833eccbdf5bec9a7@github.com/cwru-robotics/cwru_ariac_2019.git
+
+
+-----
+  to test, run:   ./build_team_system.bash
+  then run: ./run_trial.bash  (or other run bash trial)
+
+
+
