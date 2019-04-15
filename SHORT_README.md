@@ -16,7 +16,7 @@ goes in build_team_system.bash:
 
 -----
   to test, run:
-  './build_team_system.bash team_case'
+  './prepare_team_system.bash team_case'
 
   then run:
   './run_trial.bash team_case sample'
